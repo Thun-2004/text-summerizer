@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Text-analyzer",
+    "description": "Analyze text flawlessly",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "host_permissions": [
+      "https://*.example.com/"
+    ],
+    "content_scripts": [
+      {
+        "js": [
+          "/src/main.js"
+        ]
+      }
+    ],
+    "permissions": [
+      "storage"
+    ]
+  }
