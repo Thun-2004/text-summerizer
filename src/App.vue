@@ -1,11 +1,10 @@
 <script setup>
-import Main from "./components/Main.vue";
+import Main from './components/Main.vue'
 </script>
 
 <template>
-  <div>
-    <Main/>
-  </div>
+  
+  <Main/>
 </template>
 
 <style scoped>
